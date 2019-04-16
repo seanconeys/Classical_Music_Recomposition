@@ -1,0 +1,2 @@
+# Classical_Music_Recomposition
+My portion of a project for algorithmic recomposition of classical piano music. It takes a song and then uses the Krumhansel-Shmeckler algorithm to estimate its key. Then it finds the bpm of the song and uses a naive K-NN search to find the most closely related songs. It then groups sections of songs based off their similarity in bpm and the consistency of said bpm. These sections can then be fed to a probabilistic recomposition algortihm or can be used to train a markov model or a simillar ML composition algorithm.  
